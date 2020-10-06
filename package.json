@@ -1,6 +1,6 @@
 {
-  "name": "youtube-playlist-info",
-  "version": "1.1.2",
+  "name": "@mahomuri/playlist-info",
+  "version": "1.0.0",
   "description": "Youtube playlist information fetcher.",
   "main": "./src/index.js",
   "types": "./typings/index.d.ts",
@@ -9,23 +9,31 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/benkaiser/youtube-playlist-info.git"
+    "url": "git://github.com/mahomuri/playlist-info.git"
   },
-  "keywords": [
-    "youtube",
-    "video",
-    "download"
-  ],
-  "author": "Benjamin Kaiser",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "author": "MahoMuri",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/benkaiser/youtube-playlist-info/issues"
-  },
-  "homepage": "https://github.com/benkaiser/youtube-playlist-info#readme",
   "dependencies": {
-    "youtube-api": "^2.0.9"
+    "googleapis": "^61.0.0",
+    "youtube-api": "^3.0.1"
   },
   "engines": {
     "node": ">=6"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/mahomuri/playlist-info/issues"
+  },
+  "homepage": "https://github.com/mahomuri/playlist-info#readme",
+  "directories": {
+    "example": "examples",
+    "test": "tests"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "youtube",
+    "playlist"
+  ]
 }
